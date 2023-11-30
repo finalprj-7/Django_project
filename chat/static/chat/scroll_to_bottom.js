@@ -6,6 +6,16 @@ window.onload =function() {
 
 }
 
+  function autoResize() {
+    const input = document.getElementById('chat-message-input');
+    input.style.height = 'auto'; // Reset the height to auto to calculate the actual height needed
+    input.style.height = (input.scrollHeight) + 'px'; // Set the height to the calculated height
+  }
+
+  function calcTextareaHeight(e) {
+    e.style.height = 'auto'
+    e.style.height = `${e.scrollHeight}px`
+}
 
 
 //

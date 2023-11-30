@@ -14,7 +14,7 @@
 
 </head>
 <body>
-<div id="roomBody" style="background-color: #badce3">
+<div id="roomBody">
 
 <div id="chatroom_box">
 
@@ -23,14 +23,19 @@
         <br>
        {% comment %} <input id="chat-message-input" type="text" size="20">
         <input id="chat-message-submit"  type="button" class="btn btn-outline-secondary" value="Send">
+                  <input id="chat-message-submit"  type="text" class="btn btn-outline-secondary" value="Send">
+
     {% endcomment %}
 
 {#       class="form-control"  #}
-        <div class="input-group mb-3">
-          <input id="chat-message-input" type="text" class="form-control" placeholder="메시지를 입력하세요" aria-label="Recipient's username" aria-describedby="basic-addon2">
-          <div class="input-group-append">
-            <button id="chat-message-submit" class="btn btn-secondary" type="button">send</button>
-          </div>
+        <div id = "send_msg_box">
+{#        <div id = "send_box_small" class="input-group mb-3">#}
+          <input id="chat-message-input" type="text" placeholder="메시지를 입력하세요"  oninput="calcTextareaHeight(this)" aria-label="Recipient's username" aria-describedby="basic-addon2">
+{#          <div class="input-group-append">#}
+{#            <button id="chat-message-submit" class="btn btn-secondary" type="button">send</button>#}
+                 <input id="chat-message-submit"  type="image" src="{% static 'chat/images/send_image.png' %}"  width="20" height="20" title="Send">
+{#          </div>#}
+{#        </div>#}
         </div>
 
     </div>
