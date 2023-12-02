@@ -72,3 +72,16 @@ input[type=image] {
     /* 전송 버튼 */
     margin-left: auto;
 }
+
+
+/*접속한 유저가 보낸 메시지의 형식*/
+#send_message {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.sender {
+    margin-left: auto;
+}
