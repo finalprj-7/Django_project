@@ -46,7 +46,7 @@
   <td align="center">목소연</td>
   <td align="center">나선영</td>
   <td  align="center">이원지</td>
-  <td align="center">장현지/td>
+  <td align="center">장현지</td>
   <td align="center">전효민</td>
   </tr>
 
