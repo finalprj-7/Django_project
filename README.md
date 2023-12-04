@@ -67,11 +67,11 @@
   </tr>
 
   <tr width="100%">
-    <td  align="center"><a href="www.github.com/mogg22">@mogg22</a></td>
-    <td  align="center"><a href="www.github.com/ddonyobboong">@ddonyobboong</a></td>
-    <td  align="center"><a href="www.github.com/w1024ji">@w1024ji</a></td>
-    <td  align="center"><a href="www.github.com/hj9023">@hj9023</a></td>
-    <td  align="center"><a href="www.github.com/hyom1n">@hyom1n</a></td>
+    <td  align="center"><a href="https://www.github.com/mogg22">@mogg22</a></td>
+    <td  align="center"><a href="https://github.com/ddonyobboong">@ddonyobboong</a></td>
+    <td  align="center"><a href="https://github.com/w1024ji">@w1024ji</a></td>
+    <td  align="center"><a href="https://github.com/hj9023">@hj9023</a></td>
+    <td  align="center"><a href="https://github.com/hyom1n">@hyom1n</a></td>
   </tr>
       <tr width="100%">
           <td  align="center"><p>디자인</p><p>프론트엔드</p><p>포스트 CRUD</p></td>
