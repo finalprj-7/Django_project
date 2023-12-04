@@ -51,11 +51,11 @@
   </tr>
 
   <tr width="100%">
-    <td align="center"><img src="https://github.com/finalprj-7/Django_project/assets/126389940/21def447-ee44-4060-be31-26052a2db77a"></td>
-    <td align="center"><img src="https://github.com/finalprj-7/Django_project/assets/126389940/cce39acc-34ef-4f94-84f7-78e2c719555f"></td>
-    <td align="center"><img src="https://github.com/finalprj-7/Django_project/assets/126389940/93d7e1b6-2c9e-443b-a3ac-04d01e11d2a5"></td>
-    <td align="center"<img src="https://github.com/finalprj-7/Django_project/assets/126389940/fa04f593-fc65-4ef1-845e-f8e3eb1d8163"></td>
-    <td align="center"><img src="https://github.com/finalprj-7/Django_project/assets/126389940/bc3a34b9-264f-4a19-bf87-a70896261fc9"></td>
+    <td align="center"><img src="https://github.com/finalprj-7/Django_project/assets/126389940/21def447-ee44-4060-be31-26052a2db77a" width="400px"></td>
+    <td align="center"><img src="https://github.com/finalprj-7/Django_project/assets/126389940/cce39acc-34ef-4f94-84f7-78e2c719555f" width="400px"></td>
+    <td align="center"><img src="https://github.com/finalprj-7/Django_project/assets/126389940/93d7e1b6-2c9e-443b-a3ac-04d01e11d2a5" width="400px"></td>
+    <td align="center"><img src="https://github.com/finalprj-7/Django_project/assets/126389940/fa04f593-fc65-4ef1-845e-f8e3eb1d8163" width="400px"></td>
+    <td align="center"><img src="https://github.com/finalprj-7/Django_project/assets/126389940/bc3a34b9-264f-4a19-bf87-a70896261fc9" width="400px"></td>
   </tr>
 
   <tr width="100%">
