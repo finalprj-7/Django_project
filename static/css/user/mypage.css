@@ -9,6 +9,7 @@
 
 body {
     width: 392px;
+    height: 100vh;
     margin: 0 auto;
     font-family: YOONCHILDFUNDKOREAMANSEH;
     background-image: url("../../images/background.png");

@@ -89,8 +89,17 @@ a:link, a:visited {
     height: 180px;
 }
 
-.diary-img input {
+#head_image-clear_id {
+    margin-top: 15px;
+}
+
+#id_head_image {
     margin-top: 75px;
+}
+
+.diary-img a {
+    font-size: 11px;
+    width: 332px;
 }
 
 .diary-title {
