@@ -8,7 +8,7 @@
 <body>
     <div class="navbar">
         <a href="{% url 'login' %}"><img src="{% static 'images/arrow.png' %}" class="icon" alt="이전버튼"></a>
-        <a href=""><img src="{% static 'images/logo.png' %}" class="logo" alt="로고"></a>
+        <a href="{% url 'fetch_and_save_weather' %}"><img src="{% static 'images/logo.png' %}" class="logo" alt="로고"></a>
         <a><div class="blank"></div></a>
     </div>
 

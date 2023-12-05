@@ -53,6 +53,7 @@ body {
 form {
     max-width: 300px;
     margin: 0 auto;
+    margin-top: 85px;
 }
 
 form > p {

@@ -44,7 +44,7 @@ body {
 .logo {
     display: flex;
     justify-content: center;
-    margin-top: 54px;
+    margin-top: 100px;
 }
 
 .logo img {
@@ -55,7 +55,7 @@ body {
 form {
     max-width: 300px;
     margin: 0 auto;
-    margin-top: 73px;
+    margin-top: 85px;
 }
 
 input[type="text"], input[type="password"] {

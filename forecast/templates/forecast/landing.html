@@ -181,7 +181,7 @@
               {% if request.user in choice.voters.all  %}
                 <div class="chart" id="choice-selected"></div>
               {% else %}
-                <div class="chart"></div>
+                <div class="chart" onclick="showLoginAlert()"></div>
               {% endif %}
           </div>
       {% endfor %}
@@ -201,12 +201,24 @@
     </div>
 
     <!-- CHAT -->
-    <div class="post-container-title"><a href="/chat/room/">LIVE TALK ></a></div>
+    <div class="post-container-title">
+      {% if user.is_authenticated %}
+        <a href="/chat/room/">LIVE TALK ></a>
+      {% else %}
+        <a href="{%url 'login'%}" onclick="showLoginAlert()">LIVE TALK ></a>
+      {% endif %}
+    </div>
     <div class="chat-container">
       {% for c in chat %}
         <div class="message">{{ c.message }}</div>
       {% endfor %}
     </div>
+
+    <script>
+      function showLoginAlert() {
+        alert("로그인 후 이용해주세요.");
+      }
+    </script>
 
     <!-- Footer -->
     <footer><p>© 인프 7조. All rights reserved.</p></footer>
