@@ -178,8 +178,12 @@
               <span>{{ choice.choice_text }}</span>
               <div class="vote-count" style="visibility: hidden;">{{ choice.votes }}</div>
               <div class="percentage-count" id="percentage">{{ choice.votes }}</div>
-              {% if request.user in choice.voters.all  %}
-                <div class="chart" id="choice-selected"></div>
+              {% if user.is_authenticated %}
+                {% if request.user in choice.voters.all  %}
+                  <div class="chart" id="choice-selected"></div>
+                {% else %}
+                  <div class="chart"></div>
+                {% endif %}
               {% else %}
                 <div class="chart" onclick="showLoginAlert()"></div>
               {% endif %}
